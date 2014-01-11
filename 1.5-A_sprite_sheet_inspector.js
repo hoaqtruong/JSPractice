@@ -64,7 +64,7 @@ canvas.onmousemove = function (e) {
     updateReadout(loc.x, loc.y);
 }
 // Initialization ....................................................................
-spritesheet.src = 'running-sprite-sheet.png';
+spritesheet.src = 'images/running-sprite-sheet.png';
 spritesheet.onload = function(e) {
     drawSpritesheet();
 }
